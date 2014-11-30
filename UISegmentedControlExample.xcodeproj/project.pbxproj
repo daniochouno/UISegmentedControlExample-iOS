@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF80DC3E1A2A86EF0058E6CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF80DC3D1A2A86EF0058E6CA /* main.m */; };
+		DF80DC411A2A86EF0058E6CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF80DC401A2A86EF0058E6CA /* AppDelegate.m */; };
+		DF80DC441A2A86EF0058E6CA /* UISegmentedControlExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF80DC421A2A86EF0058E6CA /* UISegmentedControlExample.xcdatamodeld */; };
+		DF80DC471A2A86EF0058E6CA /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF80DC461A2A86EF0058E6CA /* ParentViewController.m */; };
+		DF80DC4A1A2A86EF0058E6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF80DC481A2A86EF0058E6CA /* Main.storyboard */; };
+		DF80DC4C1A2A86EF0058E6CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF80DC4B1A2A86EF0058E6CA /* Images.xcassets */; };
+		DF80DC4F1A2A86EF0058E6CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF80DC4D1A2A86EF0058E6CA /* LaunchScreen.xib */; };
+		DF80DC5B1A2A86EF0058E6CA /* UISegmentedControlExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF80DC5A1A2A86EF0058E6CA /* UISegmentedControlExampleTests.m */; };
+		DF80DC691A2A8AD10058E6CA /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF80DC681A2A8AD10058E6CA /* FirstTableViewController.m */; };
+		DF80DC6C1A2A8AE10058E6CA /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF80DC6B1A2A8AE10058E6CA /* ThirdTableViewController.m */; };
+		DF80DC6F1A2A8B050058E6CA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF80DC6E1A2A8B050058E6CA /* SecondViewController.m */; };
+		DF80DC721A2A8B190058E6CA /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF80DC711A2A8B190058E6CA /* FourthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF80DC551A2A86EF0058E6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF80DC301A2A86EE0058E6CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF80DC371A2A86EE0058E6CA;
+			remoteInfo = UISegmentedControlExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF80DC381A2A86EF0058E6CA /* UISegmentedControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISegmentedControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF80DC3C1A2A86EF0058E6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF80DC3D1A2A86EF0058E6CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF80DC3F1A2A86EF0058E6CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF80DC401A2A86EF0058E6CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF80DC431A2A86EF0058E6CA /* UISegmentedControlExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UISegmentedControlExample.xcdatamodel; sourceTree = "<group>"; };
+		DF80DC451A2A86EF0058E6CA /* ParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		DF80DC461A2A86EF0058E6CA /* ParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		DF80DC491A2A86EF0058E6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF80DC4B1A2A86EF0058E6CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF80DC4E1A2A86EF0058E6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF80DC541A2A86EF0058E6CA /* UISegmentedControlExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISegmentedControlExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF80DC591A2A86EF0058E6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF80DC5A1A2A86EF0058E6CA /* UISegmentedControlExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISegmentedControlExampleTests.m; sourceTree = "<group>"; };
+		DF80DC671A2A8AD10058E6CA /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		DF80DC681A2A8AD10058E6CA /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		DF80DC6A1A2A8AE10058E6CA /* ThirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
+		DF80DC6B1A2A8AE10058E6CA /* ThirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
+		DF80DC6D1A2A8B050058E6CA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DF80DC6E1A2A8B050058E6CA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DF80DC701A2A8B190058E6CA /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		DF80DC711A2A8B190058E6CA /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF80DC351A2A86EE0058E6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF80DC511A2A86EF0058E6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF80DC2F1A2A86EE0058E6CA = {
+			isa = PBXGroup;
+			children = (
+				DF80DC3A1A2A86EF0058E6CA /* UISegmentedControlExample */,
+				DF80DC571A2A86EF0058E6CA /* UISegmentedControlExampleTests */,
+				DF80DC391A2A86EF0058E6CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF80DC391A2A86EF0058E6CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF80DC381A2A86EF0058E6CA /* UISegmentedControlExample.app */,
+				DF80DC541A2A86EF0058E6CA /* UISegmentedControlExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF80DC3A1A2A86EF0058E6CA /* UISegmentedControlExample */ = {
+			isa = PBXGroup;
+			children = (
+				DF80DC3F1A2A86EF0058E6CA /* AppDelegate.h */,
+				DF80DC401A2A86EF0058E6CA /* AppDelegate.m */,
+				DF80DC451A2A86EF0058E6CA /* ParentViewController.h */,
+				DF80DC461A2A86EF0058E6CA /* ParentViewController.m */,
+				DF80DC481A2A86EF0058E6CA /* Main.storyboard */,
+				DF80DC4B1A2A86EF0058E6CA /* Images.xcassets */,
+				DF80DC4D1A2A86EF0058E6CA /* LaunchScreen.xib */,
+				DF80DC421A2A86EF0058E6CA /* UISegmentedControlExample.xcdatamodeld */,
+				DF80DC3B1A2A86EF0058E6CA /* Supporting Files */,
+				DF80DC671A2A8AD10058E6CA /* FirstTableViewController.h */,
+				DF80DC681A2A8AD10058E6CA /* FirstTableViewController.m */,
+				DF80DC6D1A2A8B050058E6CA /* SecondViewController.h */,
+				DF80DC6E1A2A8B050058E6CA /* SecondViewController.m */,
+				DF80DC6A1A2A8AE10058E6CA /* ThirdTableViewController.h */,
+				DF80DC6B1A2A8AE10058E6CA /* ThirdTableViewController.m */,
+				DF80DC701A2A8B190058E6CA /* FourthViewController.h */,
+				DF80DC711A2A8B190058E6CA /* FourthViewController.m */,
+			);
+			path = UISegmentedControlExample;
+			sourceTree = "<group>";
+		};
+		DF80DC3B1A2A86EF0058E6CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF80DC3C1A2A86EF0058E6CA /* Info.plist */,
+				DF80DC3D1A2A86EF0058E6CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF80DC571A2A86EF0058E6CA /* UISegmentedControlExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF80DC5A1A2A86EF0058E6CA /* UISegmentedControlExampleTests.m */,
+				DF80DC581A2A86EF0058E6CA /* Supporting Files */,
+			);
+			path = UISegmentedControlExampleTests;
+			sourceTree = "<group>";
+		};
+		DF80DC581A2A86EF0058E6CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF80DC591A2A86EF0058E6CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF80DC371A2A86EE0058E6CA /* UISegmentedControlExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF80DC5E1A2A86EF0058E6CA /* Build configuration list for PBXNativeTarget "UISegmentedControlExample" */;
+			buildPhases = (
+				DF80DC341A2A86EE0058E6CA /* Sources */,
+				DF80DC351A2A86EE0058E6CA /* Frameworks */,
+				DF80DC361A2A86EE0058E6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UISegmentedControlExample;
+			productName = UISegmentedControlExample;
+			productReference = DF80DC381A2A86EF0058E6CA /* UISegmentedControlExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF80DC531A2A86EF0058E6CA /* UISegmentedControlExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF80DC611A2A86EF0058E6CA /* Build configuration list for PBXNativeTarget "UISegmentedControlExampleTests" */;
+			buildPhases = (
+				DF80DC501A2A86EF0058E6CA /* Sources */,
+				DF80DC511A2A86EF0058E6CA /* Frameworks */,
+				DF80DC521A2A86EF0058E6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF80DC561A2A86EF0058E6CA /* PBXTargetDependency */,
+			);
+			name = UISegmentedControlExampleTests;
+			productName = UISegmentedControlExampleTests;
+			productReference = DF80DC541A2A86EF0058E6CA /* UISegmentedControlExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF80DC301A2A86EE0058E6CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = daniochouno;
+				TargetAttributes = {
+					DF80DC371A2A86EE0058E6CA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DF80DC531A2A86EF0058E6CA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DF80DC371A2A86EE0058E6CA;
+					};
+				};
+			};
+			buildConfigurationList = DF80DC331A2A86EE0058E6CA /* Build configuration list for PBXProject "UISegmentedControlExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF80DC2F1A2A86EE0058E6CA;
+			productRefGroup = DF80DC391A2A86EF0058E6CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF80DC371A2A86EE0058E6CA /* UISegmentedControlExample */,
+				DF80DC531A2A86EF0058E6CA /* UISegmentedControlExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF80DC361A2A86EE0058E6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF80DC4A1A2A86EF0058E6CA /* Main.storyboard in Resources */,
+				DF80DC4F1A2A86EF0058E6CA /* LaunchScreen.xib in Resources */,
+				DF80DC4C1A2A86EF0058E6CA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF80DC521A2A86EF0058E6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF80DC341A2A86EE0058E6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF80DC6C1A2A8AE10058E6CA /* ThirdTableViewController.m in Sources */,
+				DF80DC441A2A86EF0058E6CA /* UISegmentedControlExample.xcdatamodeld in Sources */,
+				DF80DC411A2A86EF0058E6CA /* AppDelegate.m in Sources */,
+				DF80DC691A2A8AD10058E6CA /* FirstTableViewController.m in Sources */,
+				DF80DC6F1A2A8B050058E6CA /* SecondViewController.m in Sources */,
+				DF80DC471A2A86EF0058E6CA /* ParentViewController.m in Sources */,
+				DF80DC721A2A8B190058E6CA /* FourthViewController.m in Sources */,
+				DF80DC3E1A2A86EF0058E6CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF80DC501A2A86EF0058E6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF80DC5B1A2A86EF0058E6CA /* UISegmentedControlExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF80DC561A2A86EF0058E6CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF80DC371A2A86EE0058E6CA /* UISegmentedControlExample */;
+			targetProxy = DF80DC551A2A86EF0058E6CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF80DC481A2A86EF0058E6CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF80DC491A2A86EF0058E6CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF80DC4D1A2A86EF0058E6CA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF80DC4E1A2A86EF0058E6CA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF80DC5C1A2A86EF0058E6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF80DC5D1A2A86EF0058E6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF80DC5F1A2A86EF0058E6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UISegmentedControlExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF80DC601A2A86EF0058E6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UISegmentedControlExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF80DC621A2A86EF0058E6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UISegmentedControlExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISegmentedControlExample.app/UISegmentedControlExample";
+			};
+			name = Debug;
+		};
+		DF80DC631A2A86EF0058E6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UISegmentedControlExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISegmentedControlExample.app/UISegmentedControlExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF80DC331A2A86EE0058E6CA /* Build configuration list for PBXProject "UISegmentedControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF80DC5C1A2A86EF0058E6CA /* Debug */,
+				DF80DC5D1A2A86EF0058E6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF80DC5E1A2A86EF0058E6CA /* Build configuration list for PBXNativeTarget "UISegmentedControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF80DC5F1A2A86EF0058E6CA /* Debug */,
+				DF80DC601A2A86EF0058E6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF80DC611A2A86EF0058E6CA /* Build configuration list for PBXNativeTarget "UISegmentedControlExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF80DC621A2A86EF0058E6CA /* Debug */,
+				DF80DC631A2A86EF0058E6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF80DC421A2A86EF0058E6CA /* UISegmentedControlExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF80DC431A2A86EF0058E6CA /* UISegmentedControlExample.xcdatamodel */,
+			);
+			currentVersion = DF80DC431A2A86EF0058E6CA /* UISegmentedControlExample.xcdatamodel */;
+			path = UISegmentedControlExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF80DC301A2A86EE0058E6CA /* Project object */;
+}
